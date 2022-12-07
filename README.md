@@ -34,3 +34,7 @@ Team:
 1. Clone the code
 2. Make two terminal, one for frontend ('./client) and one for backend ('./api')
 3. To run frontend, on terminal type in 'yarn start'. For backend, run nodemon server.js. For alternative, you can try npx nodemon@latest server.js
+
+#NOTE
+- If yarn install does not work, try using npm install --save --legacy-peer-deps
+- If yarn start does not work, create .env file on client root folder, and type SKIP_PREFLIGHT_CHECK=true
